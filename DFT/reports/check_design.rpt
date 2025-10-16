@@ -1,0 +1,698 @@
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Tue Sep 16 09:53:44 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     14
+    Unconnected ports (LINT-28)                                     5
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Tue Sep 16 11:44:16 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     14
+    Unconnected ports (LINT-28)                                     5
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Fri Sep 19 10:31:12 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     18
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Sep 27 17:14:59 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     18
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sat Sep 27 17:20:53 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     18
+    Unconnected ports (LINT-28)                                     9
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Sep 28 20:31:23 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     21
+    Multiply driven inputs (LINT-6)                                 1
+    Unconnected ports (LINT-28)                                    11
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                               5
+    Cells do not drive (LINT-1)                                     3
+    Connected to power or ground (LINT-32)                          2
+
+Tristate                                                           19
+    A tristate bus has a non tri-state driver (LINT-34)            19
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', input port 'UART_RX_IN' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', three-state bus 'U1_mux2X1/OUT' has non three-state driver 'U1_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U2_mux2X1/OUT' has non three-state driver 'U2_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U3_mux2X1/OUT' has non three-state driver 'U3_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U4_mux2X1/OUT' has non three-state driver 'U4_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U5_mux2X1/OUT' has non three-state driver 'U5_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U6_mux2X1/OUT' has non three-state driver 'U6_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[0]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_7'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[1]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_6'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[2]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_5'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[3]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_4'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[4]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_3'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[5]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_2'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[6]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_1'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[7]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_INC_ff' has non three-state driver 'DELAY_ONE_PERIOD/Signal_delayed_reg/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus '_2_net_' has non three-state driver 'C7/Z'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'FIFO_FULL' has non three-state driver 'ASYN_FIFO/link_FIFO_Write/C103/Z'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'GATED_CLK' has non three-state driver 'CLOCK_GATING/U0_TLATNCAX12M/ECK'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'REF_CLK_M' has non three-state driver 'U0_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Sep 28 21:00:13 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     21
+    Multiply driven inputs (LINT-6)                                 1
+    Unconnected ports (LINT-28)                                    11
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              12
+    Cells do not drive (LINT-1)                                    10
+    Connected to power or ground (LINT-32)                          2
+
+Tristate                                                           20
+    A tristate bus has a non tri-state driver (LINT-34)            20
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', input port 'UART_RX_IN' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', three-state bus 'U2_mux2X1/OUT' has non three-state driver 'U2_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U3_mux2X1/OUT' has non three-state driver 'U3_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'U6_mux2X1/OUT' has non three-state driver 'U6_mux2X1/C11/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[0]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_7'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[1]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_6'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[2]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_5'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[3]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_4'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[4]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_3'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[5]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_2'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[6]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_1'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_DATA[7]' has non three-state driver 'ASYN_FIFO/link_Memory/C294/Z_0'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'RD_INC_ff' has non three-state driver 'DELAY_ONE_PERIOD/Signal_delayed_reg/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[0]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][0]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[1]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][1]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[2]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][2]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[3]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][3]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[4]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][4]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[5]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][5]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[6]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][6]/Q'. (LINT-34)
+Warning: In design 'SYS_TOP', three-state bus 'UART_Config[7]' has non three-state driver 'REGISTER_FILE/Reg_File_reg[2][7]/Q'. (LINT-34)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Sun Sep 28 21:07:25 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     22
+    Unconnected ports (LINT-28)                                    13
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C98' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C94' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Mon Sep 29 00:34:00 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     14
+    Unconnected ports (LINT-28)                                     5
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C79' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Mon Sep 29 00:39:04 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     32
+    Unconnected ports (LINT-28)                                    23
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C79' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
+ 
+****************************************
+check_design summary:
+Version:     K-2015.06
+Date:        Mon Sep 29 00:41:13 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     20
+    Unconnected ports (LINT-28)                                    11
+    Shorted outputs (LINT-31)                                       4
+    Constant outputs (LINT-52)                                      5
+
+Cells                                                              20
+    Cells do not drive (LINT-1)                                    18
+    Connected to power or ground (LINT-32)                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'ClkDiv', cell 'C120' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C374' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C375' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C376' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C377' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C402' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C404' does not drive any nets. (LINT-1)
+Warning: In design 'ALU', cell 'C406' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_WR', cell 'C83' does not drive any nets. (LINT-1)
+Warning: In design 'FIFO_RD', cell 'C79' does not drive any nets. (LINT-1)
+Warning: In design 'serializer', cell 'C144' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C321' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C331' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C337' does not drive any nets. (LINT-1)
+Warning: In design 'FSM_RX', cell 'C347' does not drive any nets. (LINT-1)
+Warning: In design 'edge_bit_counter', cell 'C136' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'data_sampling', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'SYS_TOP', port 'SE' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SI[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'SYS_TOP', port 'SO[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'deserializer', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'data_sampling', port 'Prescale[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[3]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[4]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[5]'. (LINT-31)
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to output port 'clk_div[6]'. (LINT-31)
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_TX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'SYS_TOP', a pin on submodule 'CLK_DIV_RX' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'i_clk_en' is connected to logic 1. 
+Warning: In design 'Mux_Prescale', output port 'clk_div[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Mux_Prescale', output port 'clk_div[3]' is connected directly to 'logic 0'. (LINT-52)
+1
